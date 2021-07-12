@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "color")
@@ -15,9 +16,8 @@ public class Color {
     private long id;
     @Column(name = "color_name")
     private String color_name;
-    @ManyToOne
-    @JoinColumn(name = "product_id")
-    private Product product;
+    @ManyToMany(mappedBy = "colors")
+    private List<Product> product;
     @Column(name = "create_by")
     private String create_by;
     @Column(name = "update_by")
@@ -45,11 +45,11 @@ public class Color {
         this.color_name = color_name;
     }
 
-    public Product getProduct() {
+    public List<Product> getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(List<Product> product) {
         this.product = product;
     }
 

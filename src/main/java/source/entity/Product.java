@@ -23,9 +23,17 @@ public class Product {
     @OneToOne
     @JoinColumn(name = "image_id")
     private Image image_id;
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinTable(name = "product_size",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "size_id")
+    )
     private List<Size> sizes;
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinTable(name = "product_color",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "color_id")
+    )
     private List<Color> colors;
     @OneToOne
     @JoinColumn(name = "price_id")
