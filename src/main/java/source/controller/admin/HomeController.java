@@ -11,13 +11,4 @@ public class HomeController {
         return "admin/home";
     }
 
-    @RequestMapping("/patron")
-    public String patron() {
-        return "admin/patronManagement";
-    }
-
-    @RequestMapping("/contact")
-    public String contact() {
-        return "contact";
-    }
 }
