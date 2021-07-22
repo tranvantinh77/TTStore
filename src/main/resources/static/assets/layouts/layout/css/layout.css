@@ -1185,7 +1185,8 @@ Page sidebar
             box-shadow: none; }
             .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu {
                 width: 210px;
-                background-color: #4276A4;
+                background-color: #434A59;
+                border-top: 1px solid #A1A2A6;
                 position: absolute;
                 z-index: 2000;
                 left: 46px;
@@ -1201,9 +1202,9 @@ Page sidebar
             .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu > li > a {
               padding-left: 15px !important; }
             .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu > li > .sub-menu > li > a {
-              padding-left: 30px !important; }
+              padding-left: 30px !important; background: #434A59; }
             .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu > li > .sub-menu > li > .sub-menu > li > a {
-              padding-left: 45px !important; }
+              padding-left: 45px !important;background: #434A59; }
         .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li.heading > h3 {
           display: none; }
         .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li.sidebar-toggler-wrapper .sidebar-toggler {

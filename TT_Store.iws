@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7a4669-aeec-45fa-b3b5-7363eeb30e6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TT_Store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TT_Store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/source/entity/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/entity/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/source/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/source/entity/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source/entity/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/themes/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layouts/layout/css/themes/blue.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +142,9 @@
       <workItem from="1625992693706" duration="627000" />
       <workItem from="1626074900212" duration="4644000" />
       <workItem from="1626081045735" duration="674000" />
-      <workItem from="1626092186376" duration="1803000" />
+      <workItem from="1626092186376" duration="2074000" />
+      <workItem from="1626749838656" duration="965000" />
+      <workItem from="1626920245816" duration="5141000" />
     </task>
     <servers />
   </component>

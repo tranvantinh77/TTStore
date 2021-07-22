@@ -1104,7 +1104,7 @@ table.table.table-striped tr:hover td, table.table.table-striped tr:hover th {
 .logon {
     float: left;
     line-height: 51px;
-    color: #e7ebee;
+    color: #ffffff;
     font-size: 16px;
     padding-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -2437,7 +2437,7 @@ body.layCustomer {
 }
 /****/
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle > i {
-    color: #e7ebee;
+    color: #ffffff;
 }
 
 .page-header .badge-warning, .page-header .badge-success {
@@ -2445,7 +2445,7 @@ body.layCustomer {
 }
 
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
-    color: #e7ebee;
+    color: #ffffff;
     max-width: 200px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -2849,7 +2849,7 @@ h3.page-header {
 
 @media (min-width:992px) {
     .page-sidebar-wrapper {
-        background-color: #4276A4;
+        background-color: #434A59;
         position: absolute;
         top: 0;
         bottom: 0;
